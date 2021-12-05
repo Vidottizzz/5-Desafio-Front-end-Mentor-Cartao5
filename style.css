@@ -31,12 +31,12 @@ hr{
   background-color: rgba(122, 119, 119,0.2)
 }
 .card {
-  width: 22rem;
-  height: 23.1rem;
   background-color: white;
   margin: auto;
   margin-top: 20rem;
   border-radius: 1rem;
+  width: 20.2rem;
+  height: 23.1rem;
 }
 .card .card-content {
   display: flex;
@@ -115,4 +115,25 @@ font-weight: 400;
 .card .card-content .card-footer p{
   font-size:11px;
   letter-spacing: 1.2px;
+}
+
+.attribution p {
+
+  color: black;
+   padding-top: 3rem;
+   margin: auto;
+   text-align: center;
+   font-size:13px;             
+   margin-bottom: 4rem;      
+}
+.attribution a { 
+  color: hsl(357, 100%, 50%);                  
+}
+
+@media only screen and (min-width: 1100px) {
+  .card {
+    width: 22rem;
+    height: 23.1rem;
+  }
+
 }
